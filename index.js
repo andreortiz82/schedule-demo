@@ -26,6 +26,8 @@ function sendEmail() {
   });
 }
 
+sendEmail();
+
 // cron.schedule("0 */6 * * *", () => {
 //   sendEmail();
 // });

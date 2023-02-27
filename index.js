@@ -13,8 +13,8 @@ function sendEmail() {
   const mailOptions = {
     from: "hello@andreortiz.com",
     to: "hello@andreortiz.com",
-    subject: "Test Email",
-    text: "This is a test email",
+    subject: "Test Email (heroku)",
+    text: "This is a test email from heroku nodejs",
   };
 
   transporter.sendMail(mailOptions, function (error, info) {

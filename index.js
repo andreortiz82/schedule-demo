@@ -30,6 +30,6 @@ function sendEmail() {
 //   sendEmail();
 // });
 
-cron.schedule("*/1 * * * *", () => {
-  sendEmail();
-});
+// cron.schedule("*/1 * * * *", () => {
+//   sendEmail();
+// });
